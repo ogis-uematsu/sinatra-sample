@@ -1,5 +1,8 @@
 require 'sinatra'
+# test
 
-get '/' do
-  "Hello this is sinatra sample!"
+class Hello < Sinatra::Base
+  get '/' do
+    "Hello this is sinatra sample!!"
+  end
 end
